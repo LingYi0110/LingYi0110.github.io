@@ -1,1 +1,0 @@
-var OriginTitile=document.title,titleTime;document.addEventListener("visibilitychange",function(){if(document.visibilityState==="hidden"){document.title="你看不见我￣ω￣=";clearTimeout(titleTime)}else{document.title="哎呀，被看见了φ(>ω<*) ";titleTime=setTimeout(function(){document.title=OriginTitile},1500)}});
